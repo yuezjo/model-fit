@@ -38,7 +38,7 @@ First choice: {confirmed model} · {confirmed selectable effort} — {short reas
 Alternative: {confirmed model} · {effort} — {useful tradeoff; omit if unnecessary}
 Acceptance: {agreed or minimum conditions}
 Reassess if: {concrete trigger}
-Not started. {confirmation scope}. Choose settings, then say "confirm start" / "确认开始".
+Not started. {confirmation scope}. Choose settings, then say "confirm start".
 ```
 
 Precede the card with the brief stage proposal; confirmation authorizes ONLY the named current stage. Treat this latest card, its referenced requirements, and stop conditions as the pending agreement; no task-state file. Always stop here, including when keeping the current setting.

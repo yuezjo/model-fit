@@ -2,8 +2,6 @@
 
 Target: local Codex skill discovery. See [official references](SOURCES.md). A correctly copied folder does not prove model behavior in a live client.
 
-**Changing from the previous `doitright` names?** Follow the [naming-only migration](RENAME-GOLDILOCKS.md) first. The unchanged installer matches folder names; it does not automatically retire differently named old entries.
-
 ## Manual
 
 Copy any complete folder under `skills/` to `~/.agents/skills/`, or to `<project>/.agents/skills/` for a repository-local install. Do not copy only `SKILL.md`. Avoid installing the same name in multiple overlapping locations.

@@ -95,7 +95,7 @@
       ],
       "setup": "A current card awaits confirmation. The user manually selected another supported configuration.",
       "messages": [
-        "I chose a different configuration. 确认开始"
+        "I chose a different configuration. confirm start"
       ],
       "expected": [
         "Execute the approved scope using the actual host configuration without another assessment."
@@ -156,7 +156,7 @@
       ],
       "setup": "An old card for task A awaits confirmation. Task B is distinct.",
       "messages": [
-        "$<variant> Evaluate task B instead. 确认开始"
+        "$<variant> Evaluate task B instead. confirm start"
       ],
       "expected": [
         "Replace the pending assessment with task B and pause again."
@@ -176,7 +176,7 @@
       ],
       "setup": "Approved task: apply ten exact replacements. Initial check finds one omitted replacement; the fix is known, in scope, and reversible.",
       "messages": [
-        "确认开始"
+        "confirm start"
       ],
       "expected": [
         "Permit one correction-and-recheck cycle for the approved task or stage.",
@@ -514,7 +514,7 @@
       ],
       "setup": "Latest card has an unchanged task and account. The only change is the user-selected model/effort.",
       "messages": [
-        "确认开始"
+        "confirm start"
       ],
       "expected": [
         "Resume the pending work without invalidating its approval just because of the switch."
@@ -532,7 +532,7 @@
       ],
       "setup": "Stage one has completed and a hand-off has been delivered. No next-stage preflight has occurred.",
       "messages": [
-        "继续"
+        "continue"
       ],
       "expected": [
         "Do not begin stage two; point to explicit next-stage invocation."
@@ -570,7 +570,7 @@
       ],
       "setup": "Pending card covers a short edit only. The user adds a substantial new deliverable.",
       "messages": [
-        "确认开始，另外增加整份文档的事实调查。"
+        "confirm start; also add fact-checking of the entire document."
       ],
       "expected": [
         "Treat the changed scope as requiring a fresh explicit assessment."
@@ -590,7 +590,7 @@
       ],
       "setup": "The latest pending scope is not recoverable from the accessible conversation.",
       "messages": [
-        "确认开始"
+        "confirm start"
       ],
       "expected": [
         "Recover the actual pending scope or ask for it."
