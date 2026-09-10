@@ -1,10 +1,10 @@
-# Model Fit
+# Model Fit：用于模型选档的 Codex Skills
 
 **Status: Public Preview · v0.2.2-preview**
 
 [English manual](README.md)
 
-Model Fit 在执行前，根据你当前实际可用的模型和推理档位，提供简短的选档建议。设置由你手动选择，开始执行前由你确认；对于阶段差异明显的工作，也可以在每个阶段前重新评估。
+Model Fit 是一组用于模型选择和推理档位建议的 Codex skills。它在执行前，根据你当前实际可用的选项，提供简短的选档建议。设置由你手动选择，开始执行前由你确认；对于阶段差异明显的工作，也可以在每个阶段前重新评估。
 
 它是选档顾问，不是自动切换模型的路由器。
 

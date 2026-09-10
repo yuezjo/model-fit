@@ -1,10 +1,10 @@
-# Model Fit
+# Model Fit: Codex Skills for Model Selection
 
 **Status: Public Preview · v0.2.2-preview**
 
 [Chinese manual](README.zh-CN.md)
 
-Model Fit offers a short model and reasoning-effort recommendation before execution, based on the options actually available to you. You choose the settings and confirm when to start. For work with distinct stages, it can reassess before each stage.
+Model Fit is a collection of Codex skills for model selection and reasoning-effort advice. Before execution, it offers a short recommendation based on the options actually available to you. You choose the settings and confirm when to start. For work with distinct stages, it can reassess before each stage.
 
 It is a selection adviser, not an automatic model-switching router.
 
