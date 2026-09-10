@@ -1,0 +1,6 @@
+interface:
+  display_name: "Model Fit · Goldilocks · Staged"
+  short_description: "Conservative model advice with stage-by-stage approval"
+  default_prompt: "Use $model-fit-goldilocks-staged to assess this task, recommend an available configuration, and stop before execution."
+policy:
+  allow_implicit_invocation: false

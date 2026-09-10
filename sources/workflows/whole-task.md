@@ -1,0 +1,1 @@
+Recommend for the ENTIRE submitted task, including its demanding parts. Do not propose staged model switching. Internal steps and existing approvals remain; add no stage-selection gates. Confirmation covers the whole submitted scope, subject to its approvals and stop conditions.

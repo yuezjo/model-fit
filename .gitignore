@@ -1,0 +1,15 @@
+# Private calibration is stored outside this repository by default.
+availability.json
+*.local.json
+.model-fit/
+.private/
+.env
+.env.*
+__pycache__/
+*.pyc
+.DS_Store
+
+# Local build/update artifacts, never public runtime data.
+model-fit-backups/
+.model-fit-stage-*/
+*.zip

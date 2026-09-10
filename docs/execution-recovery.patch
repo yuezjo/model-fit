@@ -1,0 +1,15 @@
+--- v0.2.0/sources/skill.template.md
++++ v0.2.1/sources/skill.template.md
+@@ -47,8 +47,10 @@
+ 
+ A new explicit invocation supersedes pending approval and pauses again. Cancellation or material scope, acceptance, platform/account changes invalidate the card; request a fresh invocation. Normal model/effort switching does not. Answer clarification questions without executing. Recover lost agreement context; never guess authorization.
+ 
+-Execute and check the approved scope. Permit at most ONE known-fix, low-risk, reversible local correction-and-recheck cycle per task/current stage, not per defect. Pause on failed correction, material plan/scope change, significant new risk, or unexplained failure requiring broader investigation. A disproved hypothesis inside approved diagnosis is not delivery failure.
++Execute and check the approved scope. For routine tool hiccups, inspect current state and try brief, safe recovery without asking again (normally one or two useful retries or permitted equivalent fallbacks per blocker). Continue on success; do not loop without progress or bypass access limits. An unknown cause alone is not a stop reason. Before repeating a side-effecting action, verify its outcome or ensure safe repetition; pause if neither is possible. Skip already-completed actions.
+ 
+-Report actual outputs and checks. Unverified is neither passed nor failed and does not spend the correction allowance. On pause, include failure evidence, current changes/publication state where relevant, and unresolved issues. Do not automatically upgrade, retry again, or reassess; a new explicit invocation is required.
++Tool recovery is not output correction or evidence that a stronger model is needed. After completed output fails acceptance, allow ONE known-fix, low-risk, reversible correction-and-recheck cycle per task/stage, not per defect. Pause if it still fails, recovery remains blocked, or scope/authorization must expand or serious new risk appears. A disproved hypothesis within approved diagnosis is not delivery failure.
++
++Report actual outputs/checks; unverified is not passed or failed. Explain blockers with evidence, current state, and next action in plain language; avoid policy quotations unless asked. After a tool-blocker pause, an explicit retry/resume instruction may authorize another bounded recovery within the unchanged task/stage, without new selection. Do not auto-upgrade; new model advice requires explicit invocation.
+ 
+ {{COMPLETION}}

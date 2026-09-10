@@ -1,0 +1,1 @@
+Choose the least-consumptive eligible configuration with a well-supported expectation of initial completion and passing checks. Do not deliberately probe the capability floor. Investigate the deciding uncertainty rather than defaulting to maximum effort.

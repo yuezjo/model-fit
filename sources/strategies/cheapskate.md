@@ -1,0 +1,1 @@
+For low-risk, reversible, readily verifiable work, prefer a plausible lower-consumption option for one bounded attempt. Otherwise use the conservative rule: a well-supported expectation of initial success at the lowest applicable consumption. Do not speculate when likely checking or rework erases the benefit.

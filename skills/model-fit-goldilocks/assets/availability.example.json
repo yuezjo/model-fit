@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "example_only": true,
+  "profiles": [
+    {
+      "profile_id": "example-local-personal",
+      "platform": "Example Host — desktop client",
+      "account_label": "personal",
+      "verified_at": "2026-09-09T00:00:00Z",
+      "source": "user_confirmed_picker",
+      "coverage": "partial",
+      "cost_basis": "unknown",
+      "configurations": [
+        {
+          "model": "Example Swift",
+          "effort": "Standard",
+          "status": "available"
+        },
+        {
+          "model": "Example Deliberate",
+          "effort": "Deep",
+          "status": "temporarily_unavailable"
+        }
+      ],
+      "notes": "Illustration only. Replace with actual, confirmed choices; these are not real models."
+    }
+  ]
+}
